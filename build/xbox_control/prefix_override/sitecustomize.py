@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/cisco/xbox_ros2_ws/install/xbox_control'
+sys.prefix = sys.exec_prefix = '/home/cisco/Controller/install/xbox_control'

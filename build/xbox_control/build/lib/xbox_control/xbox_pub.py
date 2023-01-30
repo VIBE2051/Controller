@@ -97,7 +97,7 @@ class XboxController(object):
 class Xbox_publisher(Node):
     def __init__(self):
         super().__init__('Xbox_publisher')
-        self.publisher_ = self.create_publisher(Control, 'topic', 10)
+        self.publisher_ = self.create_publisher(Control, 'controller_intputs', 10)
         timer_period = 0.05
         self.timer = self.create_timer(timer_period, self.timer_callback)
         
