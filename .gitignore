@@ -1,0 +1,17 @@
+# Ignore compiled ros2 files
+bin
+lib
+msg_gen
+srv_gen
+
+# Ignore workspace files
+build/
+install/
+log/
+site/
+
+# Python caches
+__pycache__/*
+
+# VSCode things
+.vscode
