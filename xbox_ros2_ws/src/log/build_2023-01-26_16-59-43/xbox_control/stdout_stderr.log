@@ -1,0 +1,27 @@
+running egg_info
+writing ../build/xbox_control/xbox_control.egg-info/PKG-INFO
+writing dependency_links to ../build/xbox_control/xbox_control.egg-info/dependency_links.txt
+writing entry points to ../build/xbox_control/xbox_control.egg-info/entry_points.txt
+writing requirements to ../build/xbox_control/xbox_control.egg-info/requires.txt
+writing top-level names to ../build/xbox_control/xbox_control.egg-info/top_level.txt
+reading manifest file '../build/xbox_control/xbox_control.egg-info/SOURCES.txt'
+writing manifest file '../build/xbox_control/xbox_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying xbox_control/xbox_pub.py -> /home/cisco/xbox_ros2_ws/src/build/xbox_control/build/lib/xbox_control
+copying xbox_control/xbox_sub.py -> /home/cisco/xbox_ros2_ws/src/build/xbox_control/build/lib/xbox_control
+running install
+running install_lib
+copying /home/cisco/xbox_ros2_ws/src/build/xbox_control/build/lib/xbox_control/xbox_pub.py -> /home/cisco/xbox_ros2_ws/src/install/xbox_control/lib/python3.10/site-packages/xbox_control
+copying /home/cisco/xbox_ros2_ws/src/build/xbox_control/build/lib/xbox_control/xbox_sub.py -> /home/cisco/xbox_ros2_ws/src/install/xbox_control/lib/python3.10/site-packages/xbox_control
+byte-compiling /home/cisco/xbox_ros2_ws/src/install/xbox_control/lib/python3.10/site-packages/xbox_control/xbox_pub.py to xbox_pub.cpython-310.pyc
+byte-compiling /home/cisco/xbox_ros2_ws/src/install/xbox_control/lib/python3.10/site-packages/xbox_control/xbox_sub.py to xbox_sub.cpython-310.pyc
+running install_data
+copying package.xml -> /home/cisco/xbox_ros2_ws/src/install/xbox_control/share/xbox_control
+running install_egg_info
+removing '/home/cisco/xbox_ros2_ws/src/install/xbox_control/lib/python3.10/site-packages/xbox_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/xbox_control/xbox_control.egg-info to /home/cisco/xbox_ros2_ws/src/install/xbox_control/lib/python3.10/site-packages/xbox_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing xbox_pub script to /home/cisco/xbox_ros2_ws/src/install/xbox_control/lib/xbox_control
+Installing xbox_sub script to /home/cisco/xbox_ros2_ws/src/install/xbox_control/lib/xbox_control
+writing list of installed files to '/home/cisco/xbox_ros2_ws/src/build/xbox_control/install.log'

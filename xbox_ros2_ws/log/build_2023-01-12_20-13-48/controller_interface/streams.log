@@ -1,0 +1,142 @@
+[0.016s] Invoking command in '/home/cisco/xbox_ros2_ws/build/controller_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/cisco/xbox_ros2_ws/build/controller_interface -- -j4 -l4
+[0.075s] [  3%] Built target controller_interface__cpp
+[0.080s] [ 12%] Built target controller_interface__rosidl_generator_c
+[0.107s] [ 32%] Built target controller_interface__rosidl_typesupport_introspection_cpp
+[0.107s] [ 32%] Built target controller_interface__rosidl_typesupport_fastrtps_cpp
+[0.107s] [ 41%] Built target controller_interface__rosidl_typesupport_cpp
+[0.111s] [ 41%] Built target ament_cmake_python_copy_controller_interface
+[0.128s] [ 51%] Built target controller_interface__rosidl_typesupport_fastrtps_c
+[0.135s] [ 61%] Built target controller_interface__rosidl_typesupport_c
+[0.138s] [ 70%] Built target controller_interface__rosidl_typesupport_introspection_c
+[0.163s] [ 70%] Built target controller_interface
+[0.183s] [ 74%] Built target controller_interface__py
+[0.206s] [ 80%] Built target controller_interface__rosidl_generator_py
+[0.233s] [ 87%] Built target controller_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.233s] [ 93%] Built target controller_interface__rosidl_typesupport_introspection_c__pyext
+[0.234s] [100%] Built target controller_interface__rosidl_typesupport_c__pyext
+[0.438s] running egg_info
+[0.439s] writing controller_interface.egg-info/PKG-INFO
+[0.439s] writing dependency_links to controller_interface.egg-info/dependency_links.txt
+[0.439s] writing top-level names to controller_interface.egg-info/top_level.txt
+[0.445s] reading manifest file 'controller_interface.egg-info/SOURCES.txt'
+[0.445s] writing manifest file 'controller_interface.egg-info/SOURCES.txt'
+[0.479s] [100%] Built target ament_cmake_python_build_controller_interface_egg
+[0.492s] Invoked command in '/home/cisco/xbox_ros2_ws/build/controller_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/cisco/xbox_ros2_ws/build/controller_interface -- -j4 -l4
+[0.586s] Invoking command in '/home/cisco/xbox_ros2_ws/build/controller_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/cisco/xbox_ros2_ws/build/controller_interface
+[0.594s] -- Install configuration: ""
+[0.595s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/ament_index/resource_index/rosidl_interfaces/controller_interface
+[0.595s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface
+[0.595s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg
+[0.595s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/rosidl_generator_c__visibility_control.h
+[0.595s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail
+[0.595s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__functions.c
+[0.595s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__struct.h
+[0.595s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__type_support.h
+[0.596s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__functions.h
+[0.596s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/control.h
+[0.596s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.sh
+[0.596s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[0.596s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_generator_c.so
+[0.597s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface
+[0.597s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg
+[0.597s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.597s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail
+[0.597s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+[0.598s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_fastrtps_c.so
+[0.598s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface
+[0.598s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg
+[0.598s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail
+[0.598s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__type_support.c
+[0.598s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__rosidl_typesupport_introspection_c.h
+[0.598s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.599s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_introspection_c.so
+[0.599s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_c.so
+[0.599s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__traits.hpp
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__struct.hpp
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__builder.hpp
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/control.hpp
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/dds_fastrtps
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.600s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.601s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.601s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface
+[0.601s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg
+[0.602s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail
+[0.602s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[0.602s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__type_support.cpp
+[0.602s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_introspection_cpp.so
+[0.603s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_cpp.so
+[0.603s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/pythonpath.sh
+[0.603s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/pythonpath.dsv
+[0.603s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface-0.0.0-py3.10.egg-info
+[0.603s] -- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.604s] -- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.604s] -- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.604s] -- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/_controller_interface_s.ep.rosidl_typesupport_c.c
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/__init__.py
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/_controller_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/libcontroller_interface__rosidl_generator_py.so
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/_controller_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg/__init__.py
+[0.605s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg/_control_s.c
+[0.606s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg/_control.py
+[0.606s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.648s] Listing '/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface'...
+[0.648s] Listing '/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg'...
+[0.653s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.654s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.654s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.654s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_generator_py.so
+[0.655s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/msg/Control.idl
+[0.655s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/msg/Control.msg
+[0.655s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[0.655s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[0.655s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[0.656s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[0.656s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/path.sh
+[0.656s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/path.dsv
+[0.657s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/local_setup.bash
+[0.657s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/local_setup.sh
+[0.657s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/local_setup.zsh
+[0.657s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/local_setup.dsv
+[0.657s] -- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/package.dsv
+[0.657s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[0.658s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_generator_cExport.cmake
+[0.658s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_generator_cExport-noconfig.cmake
+[0.658s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.658s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.658s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.658s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.658s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_cExport.cmake
+[0.658s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.658s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_generator_cppExport.cmake
+[0.658s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.659s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.659s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.659s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.660s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_cppExport.cmake
+[0.662s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.662s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_generator_pyExport.cmake
+[0.662s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.662s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/rosidl_cmake-extras.cmake
+[0.662s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.662s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.662s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.662s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.662s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.662s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.663s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[0.663s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[0.663s] -- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/package.xml
+[0.663s] Invoked command in '/home/cisco/xbox_ros2_ws/build/controller_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/cisco/xbox_ros2_ws/build/controller_interface

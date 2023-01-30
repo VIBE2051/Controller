@@ -1,0 +1,3 @@
+[console_scripts]
+xbox_pub = xbox_control.xbox_pub:mainxbox_sub = xbox_control.xbox_sub:main
+

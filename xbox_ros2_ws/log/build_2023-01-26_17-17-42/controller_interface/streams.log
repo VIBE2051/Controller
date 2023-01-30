@@ -1,0 +1,52 @@
+[0.021s] Invoking command in '/home/cisco/xbox_ros2_ws/build/controller_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/cisco/xbox_ros2_ws/build/controller_interface -- -j4 -l4
+[0.047s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.211s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.215s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.478s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.478s]   controller_interface --arguments-file
+[0.478s]   /home/cisco/xbox_ros2_ws/build/controller_interface/rosidl_adapter__arguments__controller_interface.json
+[0.479s]   --output-dir
+[0.479s]   /home/cisco/xbox_ros2_ws/build/controller_interface/rosidl_adapter/controller_interface
+[0.479s]   --output-file
+[0.479s]   /home/cisco/xbox_ros2_ws/build/controller_interface/rosidl_adapter/controller_interface.idls)
+[0.479s]   returned error code 1:
+[0.479s] 
+[0.479s]   Error processing 'float x' of 'controller_interface/Control': ''float' is
+[0.479s]   an invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.480s] 
+[0.480s]   Traceback (most recent call last):
+[0.480s] 
+[0.480s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.480s]       return _run_code(code, main_globals, None,
+[0.480s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.480s]       exec(code, run_globals)
+[0.480s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.481s]       sys.exit(main())
+[0.481s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.481s]       abs_idl_file = convert_to_idl(
+[0.481s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.481s]       return convert_msg_to_idl(
+[0.481s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.481s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.481s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.481s]       Type(type_string, context_package_name=pkg_name),
+[0.481s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.482s]       super(Type, self).__init__(
+[0.482s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.482s]       raise InvalidResourceName(
+[0.482s] 
+[0.482s]   rosidl_adapter.parser.InvalidResourceName: 'float' is an invalid message
+[0.482s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.482s] 
+[0.483s] Call Stack (most recent call first):
+[0.483s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.483s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.483s] 
+[0.483s] [0m
+[0.483s] -- Configuring incomplete, errors occurred!
+[0.484s] See also "/home/cisco/xbox_ros2_ws/build/controller_interface/CMakeFiles/CMakeOutput.log".
+[0.486s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.489s] Invoked command in '/home/cisco/xbox_ros2_ws/build/controller_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/cisco/xbox_ros2_ws/build/controller_interface -- -j4 -l4

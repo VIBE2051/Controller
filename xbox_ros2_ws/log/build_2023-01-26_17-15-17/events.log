@@ -1,0 +1,311 @@
+[0.000000] (-) TimerEvent: {}
+[0.001658] (controller_interface) JobQueued: {'identifier': 'controller_interface', 'dependencies': OrderedDict()}
+[0.001724] (xbox_control) JobQueued: {'identifier': 'xbox_control', 'dependencies': OrderedDict([('controller_interface', '/home/cisco/xbox_ros2_ws/install/controller_interface')])}
+[0.001765] (controller_interface) JobStarted: {'identifier': 'controller_interface'}
+[0.020106] (controller_interface) JobProgress: {'identifier': 'controller_interface', 'progress': 'cmake'}
+[0.020214] (controller_interface) JobProgress: {'identifier': 'controller_interface', 'progress': 'build'}
+[0.020267] (controller_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cisco/xbox_ros2_ws/build/controller_interface', '--', '-j4', '-l4'], 'cwd': '/home/cisco/xbox_ros2_ws/build/controller_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'cisco'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cisco/xbox_ros2_ws/install/controller_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cisco'), ('OLDPWD', '/home/cisco'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1769'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/cisco/xbox_ros2_ws/install:/home/cisco/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cisco'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cisco'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cisco-VirtualBox:@/tmp/.ICE-unix/1738,unix/cisco-VirtualBox:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1f0b4f68_7296_4bba_9507_cf9ff805975f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VRJOZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/xbox_ros2_ws/install/controller_interface:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cisco/xbox_ros2_ws/build/controller_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cisco/xbox_ros2_ws/install/xbox_control/lib/python3.10/site-packages:/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages:/home/cisco/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cisco/xbox_ros2_ws/install/controller_interface:/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.045491] (controller_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099609] (-) TimerEvent: {}
+[0.200108] (-) TimerEvent: {}
+[0.217996] (controller_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.219675] (controller_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.222148] (controller_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.256112] (controller_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300216] (-) TimerEvent: {}
+[0.400881] (-) TimerEvent: {}
+[0.501698] (-) TimerEvent: {}
+[0.546428] (controller_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.601958] (-) TimerEvent: {}
+[0.702341] (-) TimerEvent: {}
+[0.758972] (controller_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.802899] (-) TimerEvent: {}
+[0.904795] (-) TimerEvent: {}
+[1.005168] (-) TimerEvent: {}
+[1.008841] (controller_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.027367] (controller_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.054227] (controller_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.054629] (controller_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.054871] (controller_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.068735] (controller_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.080992] (controller_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.081755] (controller_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.084258] (controller_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.105339] (-) TimerEvent: {}
+[1.119601] (controller_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.124999] (controller_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/cisco/xbox_ros2_ws/build/controller_interface\n'}
+[1.151242] (controller_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.162187] (controller_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.178527] (controller_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_controller_interface\n'}
+[1.205524] (-) TimerEvent: {}
+[1.307472] (-) TimerEvent: {}
+[1.407875] (-) TimerEvent: {}
+[1.508326] (-) TimerEvent: {}
+[1.608720] (-) TimerEvent: {}
+[1.611162] (controller_interface) StdoutLine: {'line': b'[  6%] Built target controller_interface__cpp\n'}
+[1.628889] (controller_interface) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.655516] (controller_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.660206] (controller_interface) StdoutLine: {'line': b'running egg_info\n'}
+[1.665542] (controller_interface) StdoutLine: {'line': b'writing controller_interface.egg-info/PKG-INFO\n'}
+[1.666359] (controller_interface) StdoutLine: {'line': b'writing dependency_links to controller_interface.egg-info/dependency_links.txt\n'}
+[1.667023] (controller_interface) StdoutLine: {'line': b'writing top-level names to controller_interface.egg-info/top_level.txt\n'}
+[1.672812] (controller_interface) StdoutLine: {'line': b"reading manifest file 'controller_interface.egg-info/SOURCES.txt'\n"}
+[1.674014] (controller_interface) StdoutLine: {'line': b"writing manifest file 'controller_interface.egg-info/SOURCES.txt'\n"}
+[1.708889] (-) TimerEvent: {}
+[1.714260] (controller_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_controller_interface_egg\n'}
+[1.729493] (controller_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.774787] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_generator_c\x1b[0m\n'}
+[1.809092] (-) TimerEvent: {}
+[1.834829] (controller_interface) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/controller_interface__rosidl_generator_c.dir/rosidl_generator_c/controller_interface/msg/detail/control__functions.c.o\x1b[0m\n'}
+[1.909289] (-) TimerEvent: {}
+[2.009827] (-) TimerEvent: {}
+[2.081966] (controller_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcontroller_interface__rosidl_generator_c.so\x1b[0m\n'}
+[2.096053] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.109975] (-) TimerEvent: {}
+[2.141993] (controller_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/controller_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interface/msg/detail/control__type_support.cpp.o\x1b[0m\n'}
+[2.180614] (controller_interface) StdoutLine: {'line': b'[ 25%] Built target controller_interface__rosidl_generator_c\n'}
+[2.201574] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.210278] (-) TimerEvent: {}
+[2.222549] (controller_interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.251207] (controller_interface) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/controller_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_interface/msg/control__type_support.cpp.o\x1b[0m\n'}
+[2.291627] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.310784] (-) TimerEvent: {}
+[2.361315] (controller_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/controller_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_interface/msg/detail/dds_fastrtps/control__type_support.cpp.o\x1b[0m\n'}
+[2.410977] (-) TimerEvent: {}
+[2.512052] (-) TimerEvent: {}
+[2.612552] (-) TimerEvent: {}
+[2.716194] (-) TimerEvent: {}
+[2.816894] (-) TimerEvent: {}
+[2.893784] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.917211] (-) TimerEvent: {}
+[2.958112] (controller_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/controller_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_interface/msg/detail/control__type_support_c.cpp.o\x1b[0m\n'}
+[3.017483] (-) TimerEvent: {}
+[3.071528] (controller_interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.117624] (-) TimerEvent: {}
+[3.186995] (controller_interface) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.217820] (-) TimerEvent: {}
+[3.242949] (controller_interface) StdoutLine: {'line': b'[ 45%] Built target controller_interface__rosidl_typesupport_cpp\n'}
+[3.263369] (controller_interface) StdoutLine: {'line': b'[ 45%] Built target controller_interface__rosidl_typesupport_introspection_cpp\n'}
+[3.282238] (controller_interface) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.305728] (controller_interface) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.318009] (-) TimerEvent: {}
+[3.355628] (controller_interface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.418210] (-) TimerEvent: {}
+[3.499393] (controller_interface) StdoutLine: {'line': b'[ 54%] Built target controller_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[3.518432] (-) TimerEvent: {}
+[3.555414] (controller_interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.619147] (-) TimerEvent: {}
+[3.680489] (controller_interface) StdoutLine: {'line': b'[ 58%] Built target controller_interface__rosidl_typesupport_fastrtps_c\n'}
+[3.705438] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_typesupport_c\x1b[0m\n'}
+[3.719333] (-) TimerEvent: {}
+[3.720730] (controller_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/controller_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_interface/msg/control__type_support.cpp.o\x1b[0m\n'}
+[3.756903] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.764085] (controller_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.769498] (controller_interface) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/controller_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_interface/msg/detail/control__type_support.c.o\x1b[0m\n'}
+[3.806746] (controller_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libcontroller_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.819438] (-) TimerEvent: {}
+[3.825244] (controller_interface) StdoutLine: {'line': b'[ 70%] Built target controller_interface__rosidl_typesupport_c\n'}
+[3.833663] (controller_interface) StdoutLine: {'line': b'[ 70%] Built target controller_interface__rosidl_typesupport_introspection_c\n'}
+[3.859019] (controller_interface) StdoutLine: {'line': b'[ 70%] Built target controller_interface\n'}
+[3.885679] (controller_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.920352] (-) TimerEvent: {}
+[4.021094] (-) TimerEvent: {}
+[4.121752] (-) TimerEvent: {}
+[4.222559] (-) TimerEvent: {}
+[4.320099] (controller_interface) StdoutLine: {'line': b'[ 74%] Built target controller_interface__py\n'}
+[4.322775] (-) TimerEvent: {}
+[4.329664] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_generator_py\x1b[0m\n'}
+[4.349221] (controller_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/controller_interface__rosidl_generator_py.dir/rosidl_generator_py/controller_interface/msg/_control_s.c.o\x1b[0m\n'}
+[4.423070] (-) TimerEvent: {}
+[4.472848] (controller_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/controller_interface/libcontroller_interface__rosidl_generator_py.so\x1b[0m\n'}
+[4.516924] (controller_interface) StdoutLine: {'line': b'[ 80%] Built target controller_interface__rosidl_generator_py\n'}
+[4.523257] (-) TimerEvent: {}
+[4.529327] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.529611] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.534607] (controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.546245] (controller_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/controller_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller_interface/_controller_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.552549] (controller_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/controller_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller_interface/_controller_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.556300] (controller_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/controller_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller_interface/_controller_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.623440] (-) TimerEvent: {}
+[4.683653] (controller_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/controller_interface/controller_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.687439] (controller_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/controller_interface/controller_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.707903] (controller_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/controller_interface/controller_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.722117] (controller_interface) StdoutLine: {'line': b'[100%] Built target controller_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[4.723703] (-) TimerEvent: {}
+[4.732910] (controller_interface) StdoutLine: {'line': b'[100%] Built target controller_interface__rosidl_typesupport_c__pyext\n'}
+[4.747490] (controller_interface) StdoutLine: {'line': b'[100%] Built target controller_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.763744] (controller_interface) CommandEnded: {'returncode': 0}
+[4.823967] (-) TimerEvent: {}
+[4.857129] (controller_interface) JobProgress: {'identifier': 'controller_interface', 'progress': 'install'}
+[4.869390] (controller_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cisco/xbox_ros2_ws/build/controller_interface'], 'cwd': '/home/cisco/xbox_ros2_ws/build/controller_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'cisco'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cisco/xbox_ros2_ws/install/controller_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cisco'), ('OLDPWD', '/home/cisco'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1769'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/cisco/xbox_ros2_ws/install:/home/cisco/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cisco'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cisco'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cisco-VirtualBox:@/tmp/.ICE-unix/1738,unix/cisco-VirtualBox:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1f0b4f68_7296_4bba_9507_cf9ff805975f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VRJOZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/xbox_ros2_ws/install/controller_interface:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cisco/xbox_ros2_ws/build/controller_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cisco/xbox_ros2_ws/install/xbox_control/lib/python3.10/site-packages:/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages:/home/cisco/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cisco/xbox_ros2_ws/install/controller_interface:/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[4.880035] (controller_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.880348] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/ament_index/resource_index/rosidl_interfaces/controller_interface\n'}
+[4.880780] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface\n'}
+[4.880881] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg\n'}
+[4.880952] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.881020] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail\n'}
+[4.881087] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__functions.c\n'}
+[4.881576] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__struct.h\n'}
+[4.882035] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__type_support.h\n'}
+[4.882383] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__functions.h\n'}
+[4.882700] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/control.h\n'}
+[4.883118] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.sh\n'}
+[4.883366] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv\n'}
+[4.883842] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_generator_c.so\n'}
+[4.884589] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_generator_c.so" to ""\n'}
+[4.884720] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface\n'}
+[4.885046] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg\n'}
+[4.885137] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.885222] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail\n'}
+[4.885296] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__rosidl_typesupport_fastrtps_c.h\n'}
+[4.885772] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[4.886429] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.886689] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface\n'}
+[4.886886] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg\n'}
+[4.887076] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail\n'}
+[4.887352] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__type_support.c\n'}
+[4.887459] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__rosidl_typesupport_introspection_c.h\n'}
+[4.887808] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.888174] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_introspection_c.so\n'}
+[4.888775] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.889023] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_c.so\n'}
+[4.889623] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_c.so" to ""\n'}
+[4.890141] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface\n'}
+[4.890339] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg\n'}
+[4.890499] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail\n'}
+[4.890705] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__traits.hpp\n'}
+[4.891391] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__struct.hpp\n'}
+[4.891747] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__builder.hpp\n'}
+[4.892558] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/control.hpp\n'}
+[4.893454] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface\n'}
+[4.893769] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg\n'}
+[4.893981] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail\n'}
+[4.894182] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/dds_fastrtps\n'}
+[4.894289] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.894666] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.894931] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.895925] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.896097] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface\n'}
+[4.896263] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg\n'}
+[4.896411] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail\n'}
+[4.896597] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.896677] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/msg/detail/control__type_support.cpp\n'}
+[4.897332] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[4.897964] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.898196] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_cpp.so\n'}
+[4.898892] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[4.899076] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/pythonpath.sh\n'}
+[4.899338] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/pythonpath.dsv\n'}
+[4.899893] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface-0.0.0-py3.10.egg-info\n'}
+[4.900129] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.900371] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.900694] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.900921] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.901391] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface\n'}
+[4.901575] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/_controller_interface_s.ep.rosidl_typesupport_c.c\n'}
+[4.901951] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/__init__.py\n'}
+[4.902222] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/_controller_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.902629] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.902984] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/libcontroller_interface__rosidl_generator_py.so\n'}
+[4.903674] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.904450] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/_controller_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.904934] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg\n'}
+[4.905254] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg/__init__.py\n'}
+[4.905608] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg/_control_s.c\n'}
+[4.906108] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg/_control.py\n'}
+[4.906697] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.924132] (-) TimerEvent: {}
+[4.943452] (controller_interface) StdoutLine: {'line': b"Listing '/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface'...\n"}
+[4.943710] (controller_interface) StdoutLine: {'line': b"Compiling '/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/__init__.py'...\n"}
+[4.943785] (controller_interface) StdoutLine: {'line': b"Listing '/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg'...\n"}
+[4.943843] (controller_interface) StdoutLine: {'line': b"Compiling '/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg/__init__.py'...\n"}
+[4.943904] (controller_interface) StdoutLine: {'line': b"Compiling '/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/msg/_control.py'...\n"}
+[4.949046] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.950005] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.951557] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.952535] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.952951] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.953892] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages/controller_interface/controller_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.954243] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_generator_py.so\n'}
+[4.955283] (controller_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cisco/xbox_ros2_ws/install/controller_interface/lib/libcontroller_interface__rosidl_generator_py.so" to ""\n'}
+[4.955418] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/msg/Control.idl\n'}
+[4.955981] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/msg/Control.msg\n'}
+[4.956499] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface\n'}
+[4.956652] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface\n'}
+[4.956833] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh\n'}
+[4.957153] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv\n'}
+[4.957744] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/path.sh\n'}
+[4.957887] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/environment/path.dsv\n'}
+[4.958471] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/local_setup.bash\n'}
+[4.958681] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/local_setup.sh\n'}
+[4.958874] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/local_setup.zsh\n'}
+[4.959054] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/local_setup.dsv\n'}
+[4.960264] (controller_interface) StdoutLine: {'line': b'-- Installing: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/package.dsv\n'}
+[4.962638] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface\n'}
+[4.963277] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_generator_cExport.cmake\n'}
+[4.963721] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.963904] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.964289] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.964752] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.964935] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.965132] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_cExport.cmake\n'}
+[4.965227] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.965295] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_generator_cppExport.cmake\n'}
+[4.965650] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.965855] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.966185] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.966398] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.966774] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_cppExport.cmake\n'}
+[4.967418] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.967699] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_generator_pyExport.cmake\n'}
+[4.968093] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.968598] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[4.968911] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.969077] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.969298] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.969465] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.969598] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.969890] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.970317] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake\n'}
+[4.970488] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake\n'}
+[4.970637] (controller_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cisco/xbox_ros2_ws/install/controller_interface/share/controller_interface/package.xml\n'}
+[4.987629] (controller_interface) CommandEnded: {'returncode': 0}
+[5.024347] (-) TimerEvent: {}
+[5.081615] (controller_interface) JobEnded: {'identifier': 'controller_interface', 'rc': 0}
+[5.082450] (xbox_control) JobStarted: {'identifier': 'xbox_control'}
+[5.124594] (-) TimerEvent: {}
+[5.224995] (-) TimerEvent: {}
+[5.326174] (-) TimerEvent: {}
+[5.427054] (-) TimerEvent: {}
+[5.527992] (-) TimerEvent: {}
+[5.629258] (-) TimerEvent: {}
+[5.730245] (-) TimerEvent: {}
+[5.830830] (-) TimerEvent: {}
+[5.911022] (xbox_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/xbox_control', 'build', '--build-base', '/home/cisco/xbox_ros2_ws/build/xbox_control/build', 'install', '--record', '/home/cisco/xbox_ros2_ws/build/xbox_control/install.log', '--single-version-externally-managed'], 'cwd': '/home/cisco/xbox_ros2_ws/src/xbox_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'cisco', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cisco/xbox_ros2_ws/install/controller_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/cisco', 'OLDPWD': '/home/cisco', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1769', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/cisco/xbox_ros2_ws/install:/home/cisco/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'cisco', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cisco', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cisco-VirtualBox:@/tmp/.ICE-unix/1738,unix/cisco-VirtualBox:/tmp/.ICE-unix/1738', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1f0b4f68_7296_4bba_9507_cf9ff805975f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VRJOZ1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cisco/xbox_ros2_ws/install/xbox_control:/home/cisco/xbox_ros2_ws/install/controller_interface:/home/cisco/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cisco/xbox_ros2_ws/build/xbox_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cisco/xbox_ros2_ws/build/xbox_control/prefix_override:/home/cisco/xbox_ros2_ws/install/xbox_control/lib/python3.10/site-packages:/home/cisco/xbox_ros2_ws/install/xbox_control/lib/python3.10/site-packages:/home/cisco/xbox_ros2_ws/install/controller_interface/local/lib/python3.10/dist-packages:/home/cisco/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/cisco/xbox_ros2_ws/install/controller_interface'}, 'shell': False}
+[5.931242] (-) TimerEvent: {}
+[6.033418] (-) TimerEvent: {}
+[6.134208] (-) TimerEvent: {}
+[6.205746] (xbox_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.206337] (xbox_control) StdoutLine: {'line': b'writing ../../build/xbox_control/xbox_control.egg-info/PKG-INFO\n'}
+[6.206986] (xbox_control) StdoutLine: {'line': b'writing dependency_links to ../../build/xbox_control/xbox_control.egg-info/dependency_links.txt\n'}
+[6.207362] (xbox_control) StdoutLine: {'line': b'writing entry points to ../../build/xbox_control/xbox_control.egg-info/entry_points.txt\n'}
+[6.208289] (xbox_control) StdoutLine: {'line': b'writing requirements to ../../build/xbox_control/xbox_control.egg-info/requires.txt\n'}
+[6.208693] (xbox_control) StdoutLine: {'line': b'writing top-level names to ../../build/xbox_control/xbox_control.egg-info/top_level.txt\n'}
+[6.211402] (xbox_control) StdoutLine: {'line': b"reading manifest file '../../build/xbox_control/xbox_control.egg-info/SOURCES.txt'\n"}
+[6.212610] (xbox_control) StdoutLine: {'line': b"writing manifest file '../../build/xbox_control/xbox_control.egg-info/SOURCES.txt'\n"}
+[6.212935] (xbox_control) StdoutLine: {'line': b'running build\n'}
+[6.213095] (xbox_control) StdoutLine: {'line': b'running build_py\n'}
+[6.213302] (xbox_control) StdoutLine: {'line': b'running install\n'}
+[6.213784] (xbox_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.215736] (xbox_control) StdoutLine: {'line': b'running install_data\n'}
+[6.216237] (xbox_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.218972] (xbox_control) StdoutLine: {'line': b"removing '/home/cisco/xbox_ros2_ws/install/xbox_control/lib/python3.10/site-packages/xbox_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.219758] (xbox_control) StdoutLine: {'line': b'Copying ../../build/xbox_control/xbox_control.egg-info to /home/cisco/xbox_ros2_ws/install/xbox_control/lib/python3.10/site-packages/xbox_control-0.0.0-py3.10.egg-info\n'}
+[6.220058] (xbox_control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.234293] (-) TimerEvent: {}
+[6.244646] (xbox_control) StdoutLine: {'line': b'Installing xbox_pub script to /home/cisco/xbox_ros2_ws/install/xbox_control/lib/xbox_control\n'}
+[6.245439] (xbox_control) StdoutLine: {'line': b'Installing xbox_sub script to /home/cisco/xbox_ros2_ws/install/xbox_control/lib/xbox_control\n'}
+[6.245629] (xbox_control) StdoutLine: {'line': b"writing list of installed files to '/home/cisco/xbox_ros2_ws/build/xbox_control/install.log'\n"}
+[6.287070] (xbox_control) CommandEnded: {'returncode': 0}
+[6.298954] (xbox_control) JobEnded: {'identifier': 'xbox_control', 'rc': 0}
+[6.300426] (-) EventReactorShutdown: {}

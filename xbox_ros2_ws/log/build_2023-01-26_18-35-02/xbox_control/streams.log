@@ -1,0 +1,22 @@
+[0.646s] Invoking command in '/home/cisco/xbox_ros2_ws/src/xbox_control': PYTHONPATH=/home/cisco/xbox_ros2_ws/build/xbox_control/prefix_override:/home/cisco/xbox_ros2_ws/install/xbox_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/xbox_control build --build-base /home/cisco/xbox_ros2_ws/build/xbox_control/build install --record /home/cisco/xbox_ros2_ws/build/xbox_control/install.log --single-version-externally-managed
+[0.882s] running egg_info
+[0.883s] writing ../../build/xbox_control/xbox_control.egg-info/PKG-INFO
+[0.884s] writing dependency_links to ../../build/xbox_control/xbox_control.egg-info/dependency_links.txt
+[0.884s] writing entry points to ../../build/xbox_control/xbox_control.egg-info/entry_points.txt
+[0.885s] writing requirements to ../../build/xbox_control/xbox_control.egg-info/requires.txt
+[0.885s] writing top-level names to ../../build/xbox_control/xbox_control.egg-info/top_level.txt
+[0.887s] reading manifest file '../../build/xbox_control/xbox_control.egg-info/SOURCES.txt'
+[0.888s] writing manifest file '../../build/xbox_control/xbox_control.egg-info/SOURCES.txt'
+[0.888s] running build
+[0.888s] running build_py
+[0.889s] running install
+[0.890s] running install_lib
+[0.891s] running install_data
+[0.892s] running install_egg_info
+[0.893s] removing '/home/cisco/xbox_ros2_ws/install/xbox_control/lib/python3.10/site-packages/xbox_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.894s] Copying ../../build/xbox_control/xbox_control.egg-info to /home/cisco/xbox_ros2_ws/install/xbox_control/lib/python3.10/site-packages/xbox_control-0.0.0-py3.10.egg-info
+[0.895s] running install_scripts
+[0.914s] Installing xbox_pub script to /home/cisco/xbox_ros2_ws/install/xbox_control/lib/xbox_control
+[0.915s] Installing xbox_sub script to /home/cisco/xbox_ros2_ws/install/xbox_control/lib/xbox_control
+[0.915s] writing list of installed files to '/home/cisco/xbox_ros2_ws/build/xbox_control/install.log'
+[0.952s] Invoked command in '/home/cisco/xbox_ros2_ws/src/xbox_control' returned '0': PYTHONPATH=/home/cisco/xbox_ros2_ws/build/xbox_control/prefix_override:/home/cisco/xbox_ros2_ws/install/xbox_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/xbox_control build --build-base /home/cisco/xbox_ros2_ws/build/xbox_control/build install --record /home/cisco/xbox_ros2_ws/build/xbox_control/install.log --single-version-externally-managed
